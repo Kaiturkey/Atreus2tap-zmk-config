@@ -42,10 +42,10 @@
         // ========== Layer 3: 小键盘 ==========
         layer3 {
             bindings = <
-                &none &none &none &none &none &none &kp NUM &kp K7 &kp K8 &kp K9 &bootloader
-                &none &none &none &none &none &none &kp KSLASH &kp K4 &kp K5 &kp K6 &kp KPLUS
-                &none &none &none &none &none &none &kp KASTERISK &kp K1 &kp K2 &kp K3 &kp KENTER
-                &none &none &none &none &none &none &kp KMINUS &kp K0 &kp K0 &kp KDOT &kp KENTER
+                &none &none &none &none &none &none &kp KP_NUM &kp KP_N7 &kp KP_N8 &kp KP_N9 &bootloader
+                &none &none &none &none &none &none &kp KP_DIVIDE &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp KP_PLUS
+                &none &none &none &none &none &none &kp KP_MULTIPLY &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp KP_ENTER
+                &none &none &none &none &none &none &kp KP_MINUS &kp KP_N0 &kp KP_N0 &kp KP_DOT &kp KP_ENTER
             >;
         };
     };
