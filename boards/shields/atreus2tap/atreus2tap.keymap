@@ -12,40 +12,40 @@
 
         layer0 {
             bindings = <
-                &kp Q    &kp W    &kp E    &kp R    &kp T    &kp NONE &kp Y    &kp U    &kp I    &kp O    &kp P
-                &kp A    &kp S    &kp D    &kp F    &kp G    &kp NONE &kp H    &kp J    &kp K    &kp L    &kp RET
+                &kp Q    &kp W    &kp E    &kp R    &kp T    &none &kp Y    &kp U    &kp I    &kp O    &kp P
+                &kp A    &kp S    &kp D    &kp F    &kp G    &none &kp H    &kp J    &kp K    &kp L    &kp RET
                 &kp LSHFT &kp Z   &kp X    &kp C    &kp V    &kp ESC  &kp B    &kp N    &kp M    &kp UP   &kp FSLH
-                &kp LCTRL &kp LGUI &kp LALT &kp TAB  &mo 1    &lt 3 GRAVE   &mo 2    &kp BKSP &kp LEFT &kp DOWN &kp RGHT
+                &kp LCTRL &kp LGUI &kp LALT &kp TAB  &mo 1    &lt 3 GRAVE    &mo 2    &kp BKSP &kp LEFT &kp DOWN &kp RGHT
             >;
         };
 
         // ========== Layer 1: 数字/符号 ==========
         layer1 {
             bindings = <
-                &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp NONE &kp N6 &kp N7 &kp N8 &kp N9 &kp N0
-                &kp NONE &kp NONE &kp NONE &kp NONE &kp NONE &kp NONE &kp NONE &kp NONE &kp NONE &kp SEMI &kp SQT
-                &kp NONE &kp NONE &kp NONE &kp NONE &kp NONE &kp NONE &kp NONE &kp NONE &kp NONE &kp COMMA &kp DOT
-                &kp NONE &kp NONE &kp NONE &kp CAPS &kp NONE &kp NONE &kp NONE &kp NONE &kp NONE &kp NONE &kp NONE
+                &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &none &kp N6 &kp N7 &kp N8 &kp N9 &kp N0
+                &none &none &none &none &none &none &none &none &none &kp SEMI &kp SQT
+                &none &none &none &none &none &none &none &none &none &kp COMMA &kp DOT
+                &none &none &none &kp CAPS &none &none &none &none &none &none &none
             >;
         };
 
         // ========== Layer 2: F键/符号 ==========
         layer2 {
             bindings = <
-                &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp NONE &kp F6 &kp F7 &kp F8 &kp F9 &kp F10
-                &kp F11 &kp F12 &kp NONE &kp NONE &kp NONE &kp NONE &kp NONE &kp NONE &kp NONE &kp MINUS &kp EQUAL
-                &kp NONE &kp NONE &kp NONE &kp NONE &kp NONE &kp NONE &kp NONE &kp NONE &kp LBKT &kp RBKT &kp BSLH
-                &kp NONE &kp NONE &kp NONE &kp NONE &kp NONE &kp NONE &kp NONE &kp NONE &kp NONE &kp NONE &kp NONE
+                &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &none &kp F6 &kp F7 &kp F8 &kp F9 &kp F10
+                &kp F11 &kp F12 &none &none &none &none &none &none &none &kp MINUS &kp EQUAL
+                &none &none &none &none &none &none &none &none &kp LBKT &kp RBKT &kp BSLH
+                &none &none &none &none &none &none &none &none &none &none &none
             >;
         };
 
         // ========== Layer 3: 小键盘 ==========
         layer3 {
             bindings = <
-                &kp NONE &kp NONE &kp NONE &kp NONE &kp NONE &kp NONE &kp NUM &kp K7 &kp K8 &kp K9 &bootloader
-                &kp NONE &kp NONE &kp NONE &kp NONE &kp NONE &kp NONE &kp KSLASH &kp K4 &kp K5 &kp K6 &kp KPLUS
-                &kp NONE &kp NONE &kp NONE &kp NONE &kp NONE &kp NONE &kp KASTERISK &kp K1 &kp K2 &kp K3 &kp KENTER
-                &kp NONE &kp NONE &kp NONE &kp NONE &kp NONE &kp NONE &kp KMINUS &kp K0 &kp K0 &kp KDOT &kp KENTER
+                &none &none &none &none &none &none &kp NUM &kp K7 &kp K8 &kp K9 &bootloader
+                &none &none &none &none &none &none &kp KSLASH &kp K4 &kp K5 &kp K6 &kp KPLUS
+                &none &none &none &none &none &none &kp KASTERISK &kp K1 &kp K2 &kp K3 &kp KENTER
+                &none &none &none &none &none &none &kp KMINUS &kp K0 &kp K0 &kp KDOT &kp KENTER
             >;
         };
     };
